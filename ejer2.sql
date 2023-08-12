@@ -230,3 +230,31 @@ insert into Valor_obra (id, fecha, precio_anterior, precio_actual, id_obra) valu
 insert into Valor_obra (id, fecha, precio_anterior, precio_actual, id_obra) values(8, '2021-01-08', 8000000, 9000000, 1);
 insert into Valor_obra (id, fecha, precio_anterior, precio_actual, id_obra) values(9, '2021-01-09', 9000000, 10000000, 3);
 insert into Valor_obra (id, fecha, precio_anterior, precio_actual, id_obra) values(10, '2021-01-10', 10000000, 11000000, 2);
+
+
+/*5 datos a la tabla Institucion*/
+
+insert into Institucion (cc, nombre, direccion, telefono) values(1753543, 'Museo de Arte Moderno', 'Calle 1 # 1-1', 1234567);
+insert into Institucion (cc, nombre, direccion, telefono) values(245453, 'Museo de Arte Contemporaneo', 'Calle 2 # 2-2', 1234568);
+insert into Institucion (cc, nombre, direccion, telefono) values(1534533, 'Museo de Arte Clasico', 'Calle 3 # 3-3', 1234569);
+insert into Institucion (cc, nombre, direccion, telefono) values(148774, 'Museo de Arte Antiguo', 'Calle 4 # 4-4', 1234560);
+insert into Institucion (cc, nombre, direccion, telefono) values(14895555, 'Museo de Arte Moderno', 'Calle 5 # 5-5', 1234561);
+
+
+/* 15 datos a la tabla Prestamo*/
+
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(1, '2021-01-01', '2021-01-15', 'Calle 1 # 1-1', 1, 1753543);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(2, '2021-01-02', '2021-01-16', 'Calle 2 # 2-2', 1, 14895555);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(3, '2021-01-03', '2021-01-17', 'Calle 3 # 3-3', 2, 1534533);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(4, '2021-01-04', '2021-01-18', 'Calle 4 # 4-4', 3, 1753543);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(5, '2021-01-05', '2021-01-19', 'Calle 5 # 5-5', 1, 1534533);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(6, '2021-01-06', '2021-01-20', 'Calle 1 # 1-1', 5, 1753543);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(7, '2021-01-07', '2021-01-21', 'Calle 2 # 2-2', 1, 14895555);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(8, '2021-01-08', '2021-01-22', 'Calle 3 # 3-3', 2, 1753543);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(9, '2021-01-09', '2021-01-23', 'Calle 4 # 4-4', 3, 1534533);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(10, '2021-01-10', '2021-01-24', 'Calle 5 # 5-5', 4, 14895555);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(11, '2021-01-11', '2021-01-25', 'Calle 1 # 1-1', 2, 1753543);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(12, '2021-01-12', '2021-01-26', 'Calle 2 # 2-2', 3, 14895555);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(13, '2021-01-13', '2021-01-27', 'Calle 3 # 3-3', 4, 1534533);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(14, '2021-01-14', '2021-01-28', 'Calle 4 # 4-4', 5, 14895555);
+insert into Prestamo (id, fecha_inicio, fecha_final, ubicación, id_obra, cc_institucion) values(15, '2021-01-15', '2021-01-29', 'Calle 5 # 5-5', 1, 14895555);
